@@ -13,7 +13,7 @@ const Hero = () => {
 
                         <a href="#onas" className="hero-general__block">
                             <div/>
-                            <h1>Биздин факультет</h1>
+                            <h1>Биздин факультетибиз</h1>
                             <span><i className="fa-solid fa-arrow-right-long"/></span>
                         </a>
 
