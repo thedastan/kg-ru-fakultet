@@ -38,9 +38,7 @@ const Info = () => {
                                 <h3>38</h3>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="info-general2">
+                        <div className="info-general2">
                     
                     <button
                         onClick={() => setModal(true)}
@@ -62,6 +60,11 @@ const Info = () => {
                         </div>
                     )}
                 </div>
+                    </div>
+
+                    
+                </div>
+ 
             </div>
         </section>
     );

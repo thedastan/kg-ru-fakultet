@@ -12,12 +12,13 @@
       height: 6px;
       border-radius: 20px;
       background: #00656B;
+
       margin-bottom: 50px;
     }
 
     &__block {
       div {
-        background: #FC724D;
+        background: #2dd5ff;
         position: absolute;
         z-index: -1;
       }
@@ -97,9 +98,10 @@
 
   .info-general2 {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    margin-top: 40px;
 
     p {
       font-family: 'Montserrat', sans-serif;

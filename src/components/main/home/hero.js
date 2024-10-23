@@ -3,8 +3,8 @@ import {media} from "../../media";
 
 const Hero = () => {
     return (
-        <section id="hero" style={{paddingTop: media(0, 70),backgroundImage:"url('https://kartinki.pics/uploads/posts/2022-12/thumbs/1669951846_4-kartinkin-net-p-aiti-fon-vkontakte-4.jpg')"}}>
-            <div  style={{width:"100%",  display:"flex", justifyContent:"center",alignItems:"center", textAlign:"center", background:"#00f2ff8c", height:"92vh", position:"absolute", top:"0px"}}> 
+        <section id="hero" style={{paddingTop: media(0, 70),backgroundImage:"url('https://thediplomat.com/wp-content/uploads/2022/03/sizes/td-story-s-2/thediplomat_2022-03-14-141243.jpg')"}}>
+            <div  style={{width:"100%",  display:"flex", justifyContent:"center",alignItems:"center", textAlign:"center", background:"#00abb47c", height:"92vh", position:"absolute", top:"0px"}}> 
             <div className="container">
                 <div className="hero-general">
                     <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
