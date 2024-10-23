@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { api } from "../../../http/api";
 
 
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+// import Zoom from 'react-medium-image-zoom'
+// import 'react-medium-image-zoom/dist/styles.css'
 
 const Gallery = () => {
 
@@ -11,7 +11,7 @@ const Gallery = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await api.get("/gallery/"); // Using api.get with the baseURL
+        const { data } = await api.get("/gallery/");  
         setDatas(data);
         console.log(data, "dataGalarea");
       } catch (error) {
@@ -23,24 +23,19 @@ const Gallery = () => {
   }, []);
 
   return (
-    <section id="teachers">
+    <section id="galarea">
       <div className="container">
-        <h3 onClick={() => alert(JSON.stringify(datas))}>Факультеттин галереясы</h3>
-        <div style={{display:"flex",flexWrap:"wrap"}} className="teachers__sliders">
+        <h3>Факультеттин галереясы</h3>
+        <div  className="galarea">
           {datas.map((el, index) => (
-            <div key={index} className="teachers__sliders--items" >
-              <div style={{ width: "250px", height: "100%",  justifyContent: "center",alignItems: "center", overflow: "hidden" }}> 
-                <Zoom> 
+            <div key={index} className="box" >
+                {/* <Zoom>  */}
                 <img
                 src={el.image}
-                alt=""
-                style={{width:"100%",height:"100%", objectFit:"cover",borderRadius:"10px"}}
+                alt="img"
               />
-              </Zoom>
+              {/* </Zoom> */}
               
-              </div>
-              <h4 style={{fontSize:"14px" , fontWeight:600,textAlign:"center", marginTop:"10px"}}>{el.title}</h4>
-              {/* <p>{el.description}</p> */}
             </div>
           ))}
         </div>

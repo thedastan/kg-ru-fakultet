@@ -4,12 +4,12 @@ import {media} from "../../media";
 const Hero = () => {
     return (
         <section id="hero" style={{paddingTop: media(0, 70),backgroundImage:"url('https://kartinki.pics/uploads/posts/2022-12/thumbs/1669951846_4-kartinkin-net-p-aiti-fon-vkontakte-4.jpg')"}}>
-            <div  style={{width:"100%",  display:"flex", justifyContent:"center",alignItems:"center", textAlign:"center", background:"rgba(93, 112, 210, 0.383)", height:"92vh", position:"absolute", top:"0px"}}> 
+            <div  style={{width:"100%",  display:"flex", justifyContent:"center",alignItems:"center", textAlign:"center", background:"#00f2ff8c", height:"92vh", position:"absolute", top:"0px"}}> 
             <div className="container">
                 <div className="hero-general">
                     <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-                        <h1 className="hero-general__title" style={{fontSize: media(60, 45), marginBottom: media(20, 60)}}>Математика жана  Компьютердик <br/> Технологиялар факультети. </h1>
-                        <p className="hero-general__desc" style={{fontSize: media(15, 20)} }>Келечегинди биз менен башта!</p>
+                        <h1 className="hero-general__title" style={{fontSize: media(60, 45), marginBottom: media(20, 60)}}>Кыргыз-Россия факультети</h1>
+                        <p className="hero-general__desc" style={{fontSize: media(15, 20)} }>Келечегинди биз менен башта!</p>  
 
                         <a href="#onas" className="hero-general__block">
                             <div/>
