@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../styles/Header/header.scss";
-import logo from "../../images/oshmpu.jpg";
+import logo from "../../images/logo.jpeg";
 import { Link } from "react-router-dom";
 import { api } from "../../http/api";
 import BurgerMenu from "./burgerMenu";
