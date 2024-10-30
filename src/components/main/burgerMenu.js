@@ -85,7 +85,7 @@ function Navbar() {
                 Кафедра
               </Link>
               <Link to="/chronology" className="header__section--items__a__2">
-                Окуунун программасы
+                Адистиктер
               </Link>
               <Link to="/chronology" className="header__section--items__a__2">
                 Илимий иштер
