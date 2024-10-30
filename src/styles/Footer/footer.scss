@@ -11,6 +11,7 @@
 
     &__contact {
       padding-top: 40px;
+     
 
       span {
         i {
@@ -41,6 +42,7 @@
       div {
         display: flex;
         padding-top: 50px;
+         
 
         h1 {
           font-family: 'Montserrat', sans-serif;
@@ -118,9 +120,17 @@
 @media (max-width: 768px) {
   .footer-general {
     flex-direction: column;
+    // background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
   }
   .footer-general__center {
     margin: 20px 0;
+  
   }
 }
 
