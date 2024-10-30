@@ -2,6 +2,13 @@ import React, {useState} from 'react';
 import school from "./../../../images/факультет.jpg"
 import {media} from "../../media";
 
+import stydent from "../../../images/stydent.jpg";
+import ticher from "../../../images/ticher.jpg";
+
+
+
+
+
 const Info = () => {
 
     const [modal, setModal] = useState(false)
@@ -21,7 +28,7 @@ const Info = () => {
                         <div className="info-general__block2__gen">
                             <div className="info-general__block2__gen__cer"
                                  style={{width: media(70, 100), height: media(70, 100)}}>
-                                <img src='https://static6.depositphotos.com/1000291/574/i/450/depositphotos_5743311-stock-photo-graduate-students.jpg' alt="img"/>
+                                <img src={stydent} alt="img"/>
                             </div>
                             <div className="info-general__block2__gen__item">
                                 <h2>Учурдагы студенттер</h2>
@@ -31,7 +38,7 @@ const Info = () => {
                         <div className="info-general__block2__gen">
                             <div className="info-general__block2__gen__cer"
                                  style={{width: media(70, 100), height: media(70, 100)}}>
-                                <img src="https://ncrdo.ru/upload/medialibrary/f79/f7923bdbe63a99979beca3b9da2f9fb8.jpg" alt="img"/>
+                                <img src={ticher} alt="img"/>
                             </div>
                             <div className="info-general__block2__gen__item">
                                 <h2>Учурдагы мугалимдер</h2>

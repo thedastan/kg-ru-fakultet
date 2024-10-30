@@ -8,20 +8,23 @@ const Hero = () => {
 			style={{
 				paddingTop: media(0, 70),
 				backgroundImage:
-					"url('https://thediplomat.com/wp-content/uploads/2022/03/sizes/td-story-s-2/thediplomat_2022-03-14-141243.jpg')",
+					"linear-gradient(rgba(0, 171, 180, 0.5), rgba(0, 171, 180, 0.5)), url('https://thediplomat.com/wp-content/uploads/2022/03/sizes/td-story-s-2/thediplomat_2022-03-14-141243.jpg')",
+				backgroundSize: "cover",
+				backgroundPosition: "center",
 			}}>
 			<div
-				style={{
-					width: "100%",
-					display: "flex",
-					justifyContent: "center",
-					alignItems: "center",
-					textAlign: "center",
-					background: "#00abb47c",
-					height: "92vh",
-					position: "absolute",
-					top: "0px",
-				}}>
+			// style={{
+			// 	width: "100%",
+			// 	display: "flex",
+			// 	justifyContent: "center",
+			// 	alignItems: "center",
+			// 	textAlign: "center",
+			// 	background: "#00abb47c",
+			// 	height: "92vh",
+			// 	position: "absolute",
+			// 	top: "0px",
+			// }}
+			>
 				<div className="container">
 					<div className="hero-general">
 						<div
@@ -30,6 +33,7 @@ const Hero = () => {
 								flexDirection: "column",
 								justifyContent: "center",
 								alignItems: "center",
+								marginTop:"100px"
 							}}>
 							<h1
 								className="hero-general__title"
